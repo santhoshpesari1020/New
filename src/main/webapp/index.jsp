@@ -2,8 +2,9 @@
 <body>
 <h2>Hello World! Hello Welcome to my world</h2>
   
-<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>
-<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+var userposition=location.href.indexOf("user=");
+var user=location.href.substring(userposition+5);
+document.getElementById("Welcome").innerHTML=" Hello, "+user;
 
 
 </body>
