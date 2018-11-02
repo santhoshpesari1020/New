@@ -23,13 +23,7 @@
   </dependencies>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
- <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>santhosh-artifactory-5-8-1-snapshots</name>
-        <url>http://10.128.0.126:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
+ 
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
