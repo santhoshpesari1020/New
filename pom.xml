@@ -10,7 +10,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>santhosh-artifactory-5-8-2-snapshots</name>
-        <url>https://test.jfrog:443/artifactory/libs-snapshot</url>
+        <url>http://10.128.0.126:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
   <dependencies>
