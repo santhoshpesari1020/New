@@ -6,13 +6,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
- <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>santhosh-artifactory-5-8-2-snapshots</name>
-        <url>http://10.128.0.126:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
