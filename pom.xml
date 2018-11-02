@@ -20,7 +20,7 @@
 </dependency>
 
   </dependencies>
- <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>santhosh-artifactory-5-8-1-snapshots</name>
